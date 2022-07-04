@@ -14,3 +14,15 @@ export const EllipseBox = styled(Box)(({ theme }) => ({
   right: 0,
   filter: "blur(127px)",
 }));
+
+export const SocialBox = styled(Box)({
+  display: "flex",
+  justifyContent: "center",
+  marginBottom: "50px",
+});
+
+export const IconBox = styled(Box)({
+  width: "100px",
+  height: "100px",
+  marginRight: "30px",
+});
