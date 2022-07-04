@@ -12,7 +12,7 @@ function Navbar() {
           sx={{ display: "flex", alignItems: "flex-end", padding: "20px" }}
         >
           <Image
-            src={require("../../public/img/logo.png")}
+            src={require("../../public/imgs/logo.png")}
             width="275"
             height="65"
           />

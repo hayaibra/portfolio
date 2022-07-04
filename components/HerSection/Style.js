@@ -29,19 +29,20 @@ export const HeroContent = styled(Stack)({
 });
 
 export const InfoBox = styled(Box)({
-  paddingLeft: "85px",
+  paddingLeft: "145px",
+  zIndex:1000,
 });
 
 export const TitleInfoBox = styled(Typography)({
   color: "white",
   fontWeight: "bold",
-  fontSize: "90px",
+  fontSize: "114px",
 });
 
 export const CareerInfo = styled(Typography)({
   color: "white",
   letterSpacing: "4.5px",
-  fontSize: "22px",
+  fontSize: "44px",
   fontWeight: "bold",
 });
 

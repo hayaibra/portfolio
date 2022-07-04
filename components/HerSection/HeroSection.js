@@ -23,12 +23,12 @@ function HeroSection() {
           <CareerInfo variant="h6">Front-End Developer</CareerInfo>
         </InfoBox>
         <ImageBox>
-          <Image src={require("../../public/img/girl-1.png")} width="550" />
+          <Image src={require("../../public/imgs/girl-1.png")} width="600" height="400" />
         </ImageBox>
       </HeroContent>
       <ArrowBox>
         <a href="#about">
-          <Image src={require("../../public/img/arrow.png")} />
+          <Image src={require("../../public/imgs/arrow.png")} />
         </a>
       </ArrowBox>
       <EllipseBox />

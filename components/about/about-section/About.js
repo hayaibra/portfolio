@@ -18,7 +18,7 @@ function About() {
       </TitleBox>
       <Stack direction="row" spacing={2}>
         <ImageBox>
-          <Image src={require("../../../public/img/girl-2.png")} />
+          <Image src={require("../../../public/imgs/girl-2.png")} />
         </ImageBox>
         <Box>
           <AboutContent>
