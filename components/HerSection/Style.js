@@ -1,4 +1,4 @@
-import { Box, styled } from "@mui/material";
+import { Box, styled, Stack, Typography } from "@mui/material";
 
 export const HeroBox = styled(Box)(({ theme }) => ({
   background: theme.palette.othercolor.main,
@@ -19,3 +19,27 @@ export const EllipseBox = styled(Box)(({ theme }) => ({
   right: 0,
   filter: "blur(175px)",
 }));
+
+export const HeroContent = styled(Stack)({
+  alignItems: "center",
+  height: "100%",
+  justifyContent: "space-evenly",
+  display: "flex",
+});
+
+export const InfoBox = styled(Box)({
+  paddingLeft: "85px",
+});
+
+export const TitleInfoBox = styled(Typography)({
+  color: "white",
+  fontWeight: "bold",
+  fontSize: "90px",
+});
+
+export const CareerInfo = styled(Typography)({
+  color: "white",
+  letterSpacing: "4.5px",
+  fontSize: "22px",
+  fontWeight: "bold",
+});
