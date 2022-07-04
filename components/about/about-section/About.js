@@ -17,10 +17,10 @@ function About() {
         <Title variant="h2">ABOUT ME</Title>
       </TitleBox>
       <Stack direction="row" spacing={2}>
-        <ImageBox>
-          <Image src={require("../../../public/imgs/girl-2.png")} />
-        </ImageBox>
         <Box>
+          <Image src={require("../../../public/imgs/girl-2.png")} width="800" height="500"/>
+        </Box>
+        <Box sx={{display:"flex" , justifyContent:"center"}}>
           <AboutContent>
             <AboutText sx={{ marginBottom: "50px" }}>
               I'm a junior developer who has recently started my journey as a

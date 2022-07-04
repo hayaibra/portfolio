@@ -36,7 +36,7 @@ export const AboutContent = styled(Box)({
 });
 
 export const AboutText = styled(Typography)({
-  fontSize: "22px",
+  fontSize: "28px",
   fontWeight: "bold",
   
 });

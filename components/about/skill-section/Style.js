@@ -13,7 +13,8 @@ export const CardContent = styled(Box)({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  height: "200px",
+  height: "125px",
+  width:"125px"
 });
 
 export const CardName = styled(Typography)({

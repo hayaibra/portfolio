@@ -10,7 +10,7 @@ function SkillCard({ skill }) {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/${skill.img}`)}
-            width="130"
+            width="160" 
           />
         </CardContent>
         <CardName>{skill.name}</CardName>
