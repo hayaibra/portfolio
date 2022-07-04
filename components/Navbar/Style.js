@@ -4,5 +4,5 @@ export const ToolbarBox = styled(Toolbar)({
   display: "flex",
   alignItems: "center",
   justifyContent: "space-evenly",
-  height: "100px",
+  height: "200px",
 });

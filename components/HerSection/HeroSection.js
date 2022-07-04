@@ -8,9 +8,10 @@ import {
   TitleInfoBox,
   CareerInfo,
   ImageBox,
-  ArrowBox
+  ArrowBox,
 } from "./Style";
 import Image from "next/image";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -26,7 +27,9 @@ function HeroSection() {
         </ImageBox>
       </HeroContent>
       <ArrowBox>
-        <Image src={require("../../public/img/arrow.png")} />
+        <a href="#about">
+          <Image src={require("../../public/img/arrow.png")} />
+        </a>
       </ArrowBox>
       <EllipseBox />
     </HeroBox>

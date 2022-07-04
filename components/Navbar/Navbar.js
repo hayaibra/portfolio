@@ -6,10 +6,10 @@ import { ToolbarBox } from "./Style";
 
 function Navbar() {
   return (
-    <AppBar position="sticky" color="transparent" elevation={0}>
+    <AppBar color="othercolor" elevation={0}>
       <ToolbarBox>
         <Box
-          sx={{ display: "flex", alignItems: "flex-end", paddingTop: "40px" }}
+          sx={{ display: "flex", alignItems: "flex-end", padding: "20px" }}
         >
           <Image
             src={require("../../public/img/logo.png")}
@@ -25,7 +25,7 @@ function Navbar() {
                 textDecoration: "none",
                 display: "flex",
                 fontSize: "22px",
-                padding: "28px 50px 0",
+                padding: "28px 50px ",
                 height: "100px",
                 alignItems: "flex-end",
               }}
@@ -39,7 +39,7 @@ function Navbar() {
               textDecoration: "none",
               display: "flex",
               fontSize: "22px",
-              padding: "28px 50px 0",
+              padding: "28px 50px ",
               height: "100px",
               alignItems: "flex-end",
             }}
@@ -53,7 +53,7 @@ function Navbar() {
                 textDecoration: "none",
                 display: "flex",
                 fontSize: "22px",
-                padding: "28px 50px 0",
+                padding: "28px 50px ",
                 height: "100px",
                 alignItems: "flex-end",
               }}

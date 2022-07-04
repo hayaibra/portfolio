@@ -2,12 +2,13 @@ import { Box, styled, Stack, Typography, keyframes } from "@mui/material";
 
 export const HeroBox = styled(Box)(({ theme }) => ({
   background: theme.palette.othercolor.main,
-  position: "absolute",
+  position: "relative",
   width: "100%",
   height: "100vh",
   top: 0,
   left: 0,
   right: 0,
+  overflow:"hidden"
 }));
 
 export const EllipseBox = styled(Box)(({ theme }) => ({
