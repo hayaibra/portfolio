@@ -1,4 +1,4 @@
-import { Stack, Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
 import {
   HeroBox,
@@ -7,6 +7,8 @@ import {
   InfoBox,
   TitleInfoBox,
   CareerInfo,
+  ImageBox,
+  ArrowBox
 } from "./Style";
 import Image from "next/image";
 
@@ -19,10 +21,13 @@ function HeroSection() {
           <TitleInfoBox variant="h1">I am Haya</TitleInfoBox>
           <CareerInfo variant="h6">Front-End Developer</CareerInfo>
         </InfoBox>
-        <Box sx={{ zIndex: 1000 }}>
+        <ImageBox>
           <Image src={require("../../public/img/girl-1.png")} width="550" />
-        </Box>
+        </ImageBox>
       </HeroContent>
+      <ArrowBox>
+        <Image src={require("../../public/img/arrow.png")} />
+      </ArrowBox>
       <EllipseBox />
     </HeroBox>
   );

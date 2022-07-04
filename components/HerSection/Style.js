@@ -1,4 +1,4 @@
-import { Box, styled, Stack, Typography } from "@mui/material";
+import { Box, styled, Stack, Typography, keyframes } from "@mui/material";
 
 export const HeroBox = styled(Box)(({ theme }) => ({
   background: theme.palette.othercolor.main,
@@ -42,4 +42,21 @@ export const CareerInfo = styled(Typography)({
   letterSpacing: "4.5px",
   fontSize: "22px",
   fontWeight: "bold",
+});
+
+export const ImageBox = styled(Box)({
+  zIndex: 1000,
+});
+
+const upDown = keyframes`100% {transform :translateY(50px)}`;
+
+export const ArrowBox = styled(Box)({
+  position: "absolute",
+  bottom: "10%",
+  left: "50%",
+  zIndex: 1000,
+  cursor: "pointer",
+  "&:hover": {
+    animation: `${upDown} 0.5s both  infinite linear`,
+  },
 });
