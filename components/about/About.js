@@ -1,23 +1,15 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import {AboutBox} from "./Style";
+import { AboutBox, TitleBox } from "./Style";
 
 function About() {
   return (
     <AboutBox>
-      <Box
-        sx={{
-          textAlign: "center",
-          width: "fit-content",
-          position: "relative",
-          left: "50%",
-          transform: "translateX(-50%)",
-        }}
-      >
+      <TitleBox>
         <Typography variant="h2" fontWeight="bold">
           ABOUT ME
         </Typography>
-      </Box>
+      </TitleBox>
     </AboutBox>
   );
 }
