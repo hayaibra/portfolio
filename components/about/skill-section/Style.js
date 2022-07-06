@@ -7,14 +7,16 @@ export const SkillBox = styled(Box)({
 export const Card = styled(Box)({
   display: "flex",
   flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
 });
 
 export const CardContent = styled(Box)({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  height: "125px",
-  width:"125px"
+  height: "200px",
+  width:"200px"
 });
 
 export const CardName = styled(Typography)({

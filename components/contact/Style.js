@@ -25,4 +25,5 @@ export const IconBox = styled(Box)({
   width: "100px",
   height: "100px",
   marginRight: "30px",
+  cursor: "pointer",
 });
