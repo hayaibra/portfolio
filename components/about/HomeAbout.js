@@ -4,7 +4,7 @@ import Skills from "./skill-section/Skills";
 
 function HomeAbout() {
   return (
-    <div>
+    <div id="about">
       <About />
       <Skills />
     </div>

@@ -8,9 +8,7 @@ function Navbar() {
   return (
     <AppBar color="othercolor" elevation={0}>
       <ToolbarBox>
-        <Box
-          sx={{ display: "flex", alignItems: "flex-end", padding: "20px" }}
-        >
+        <Box sx={{ display: "flex", alignItems: "flex-end", padding: "20px" }}>
           <Image
             src={require("../../public/imgs/logo.png")}
             width="275"
@@ -34,6 +32,7 @@ function Navbar() {
             </a>
           </Link>
           <a
+            href="#about"
             style={{
               color: "white",
               textDecoration: "none",
