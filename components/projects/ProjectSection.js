@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import React from "react";
 import { EllipseBox, ProjectContent, TitleBox, Title } from "./Style";
 import ProjectInfo from "./ProjectInfo";
@@ -13,7 +13,9 @@ function ProjectSection() {
           </Title>
         </TitleBox>
         <Box>
-        <ProjectInfo/>
+          <Container>
+            <ProjectInfo />
+          </Container>
         </Box>
       </Box>
       <EllipseBox />
