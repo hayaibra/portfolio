@@ -1,17 +1,18 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import { ProjectContent } from "./Style";
+import { EllipseBox, ProjectContent , TitleBox } from "./Style";
 
 function ProjectSection() {
   return (
     <ProjectContent>
       <Box>
-        <Box width="fit-content">
+        <TitleBox>
           <Typography variant="h2" color="white" fontWeight="bold">
             PROJECTS
           </Typography>
-        </Box>
+        </TitleBox>
       </Box>
+      <EllipseBox/>
     </ProjectContent>
   );
 }

@@ -13,7 +13,7 @@ import Image from "next/image";
 function About() {
   return (
     <AboutBox>
-      <TitleBox>
+      <TitleBox >
         <Title variant="h2">ABOUT ME</Title>
       </TitleBox>
       <Stack direction="row" spacing={2}>
