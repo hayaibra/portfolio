@@ -12,7 +12,7 @@ function ProjectSection() {
             PROJECTS
           </Title>
         </TitleBox>
-        <Box >
+        <Box sx={{ zIndex: 1000, position: "relative" }}>
           <Container>
             <ProjectInfo />
           </Container>
