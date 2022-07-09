@@ -1,4 +1,4 @@
-import { Box, styled } from "@mui/material";
+import { Box, styled, Typography } from "@mui/material";
 
 export const ProjectContent = styled(Box)(({ theme }) => ({
   background: theme.palette.othercolor.main,
@@ -26,6 +26,11 @@ export const TitleBox = styled(Box)({
     left: 0,
     bottom: 0,
   },
+});
+
+export const Title = styled(Typography)({
+  fontWeight: "bold",
+  color: "white",
 });
 
 export const EllipseBox = styled(Box)(({ theme }) => ({
