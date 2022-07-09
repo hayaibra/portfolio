@@ -1,4 +1,4 @@
-import { Box, styled, Typography } from "@mui/material";
+import { Box, Button, Paper, styled, Typography } from "@mui/material";
 
 export const ProjectContent = styled(Box)(({ theme }) => ({
   background: theme.palette.othercolor.main,
@@ -41,3 +41,60 @@ export const EllipseBox = styled(Box)(({ theme }) => ({
   right: 0,
   filter: "blur(175px)",
 }));
+
+export const ProjectCard = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.bluecolor.main,
+  borderRadius: "30px",
+  display: "flex",
+  justifyContent: "center",
+  overflow: "hidden",
+  flexDirection: "column",
+}));
+
+export const ProjectCardContent = styled(Box)({
+  padding: "25px",
+});
+
+export const ProjectCardTitleBox = styled(Box)({
+  marginBottom: "50px",
+});
+
+export const ProjectCardTitle = styled(Typography)({
+  color: "white",
+  fontWeight: "bold",
+  fontSize: "30px",
+});
+
+export const ProjectCardText = styled(Box)({
+  width: "80%",
+  marginBottom: "50px",
+});
+
+export const ProjectCardTextContent = styled(Typography)({
+  color: "white",
+  lineHeight: "1.6",
+  fontSize: "20px",
+});
+
+export const ButtonBox = styled(Box)({
+  display: "flex",
+  justifyContent: "flex-end",
+});
+
+export const ViewButton = styled(Button)({
+  borderRadius: "20px",
+});
+
+export const ViewButtonContent = styled(Typography)({
+  color: "white",
+  textTransform: "lowercase",
+  fontWeight: "bold",
+  fontSize: "20px",
+});
+
+export const AvatarBox = styled(Box)({
+  marginLeft: "15px",
+  width: "40px",
+  height: "40px",
+  borderRadius: "50%",
+});

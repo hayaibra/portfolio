@@ -12,7 +12,7 @@ function ProjectSection() {
             PROJECTS
           </Title>
         </TitleBox>
-        <Box>
+        <Box >
           <Container>
             <ProjectInfo />
           </Container>

@@ -14,6 +14,9 @@ const outertheme = createTheme({
     pinkcolor: {
       main: "#f05684",
     },
+    bluecolor: {
+      main: "#074070",
+    },
   },
 });
 
