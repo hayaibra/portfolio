@@ -1,24 +1,18 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import { Title, TitleBox } from "../about/about-section/Style";
+import { ProjectContent } from "./Style";
 
 function ProjectSection() {
   return (
-    <Box
-      sx={{
-        padding: "60px 0",
-        position: "relative",
-        backgroundColor: "red",
-        height: "80vh",
-        top: "200px",
-      }}
-    >
+    <ProjectContent>
       <Box>
-        <Box>
-          <Typography>PROJECTS</Typography>
+        <Box width="fit-content">
+          <Typography variant="h2" color="white" fontWeight="bold">
+            PROJECTS
+          </Typography>
         </Box>
       </Box>
-    </Box>
+    </ProjectContent>
   );
 }
 
