@@ -2,10 +2,18 @@ import React from "react";
 import Image from "next/image";
 import { AppBar, Stack, Box } from "@mui/material";
 import Link from "next/link";
-import { ToolbarBox } from "./Style";
+import {
+  EllipseBox,
+  LinkBox,
+  Sidebar,
+  ToolbarBox,
+  CloseBox,
+  LinkMobileBox,
+} from "./Style";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
+import { ImageBox } from "./Style";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -17,61 +25,24 @@ function Navbar() {
   return (
     <AppBar color="othercolor" elevation={0}>
       <ToolbarBox>
-        <Box sx={{ display: "flex", alignItems: "flex-end", padding: "20px" }}>
+        <ImageBox>
           <Image
             src={require("../../public/imgs/logo.png")}
             width="275"
             height="65"
           />
-        </Box>
+        </ImageBox>
         <Stack
           direction="row"
           spacing={3}
           sx={{ display: { xs: "none", md: "flex" } }}
         >
           <Link href="/" passHref>
-            <a
-              style={{
-                color: "white",
-                textDecoration: "none",
-                display: "flex",
-                fontSize: "25px",
-                padding: "28px 50px ",
-                height: "100px",
-                alignItems: "flex-end",
-              }}
-            >
-              Home
-            </a>
+            <LinkBox>Home</LinkBox>
           </Link>
-          <a
-            href="#about"
-            style={{
-              color: "white",
-              textDecoration: "none",
-              display: "flex",
-              fontSize: "25px",
-              padding: "28px 50px ",
-              height: "100px",
-              alignItems: "flex-end",
-            }}
-          >
-            About
-          </a>
+          <LinkBox href="#about">About</LinkBox>
           <Link href="/projects" passHref>
-            <a
-              style={{
-                color: "white",
-                textDecoration: "none",
-                display: "flex",
-                fontSize: "25px",
-                padding: "28px 50px ",
-                height: "100px",
-                alignItems: "flex-end",
-              }}
-            >
-              Projects
-            </a>
+            <LinkBox>Projects</LinkBox>
           </Link>
         </Stack>
         <Box
@@ -81,80 +52,23 @@ function Navbar() {
           <MenuIcon sx={{ fontSize: "60px" }} />
         </Box>
         {open && (
-          <Box
-            sx={{
-              width: "50%",
-              position: "absolute",
-              backgroundColor: "red",
-              height: "100vh",
-              top: "0",
-              right: "0",
-              display: "flex",
-              justifyContent: "center",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                top: "20px",
-                right: "20px",
-                cursor: "pointer",
-                transition: "1s ease-in",
-              }}
-              onClick={() => setOpen(false)}
-            >
+          <Sidebar>
+            <CloseBox onClick={() => setOpen(false)}>
               <CloseIcon color="white" sx={{ fontSize: "40px" }} />
-            </Box>
+            </CloseBox>
             <Link href="/" passHref>
-              <a
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                  display: "flex",
-                  fontSize: "25px",
-                  padding: "28px 50px ",
-                  height: "100px",
-                  alignItems: "flex-end",
-                }}
-                onClick={() => setOpen(false)}
-              >
-                Home
-              </a>
+              <LinkMobileBox onClick={() => setOpen(false)}>Home</LinkMobileBox>
             </Link>
-            <a
-              href="#about"
-              style={{
-                color: "white",
-                textDecoration: "none",
-                display: "flex",
-                fontSize: "25px",
-                padding: "28px 50px ",
-                height: "100px",
-                alignItems: "flex-end",
-              }}
-              onClick={() => setOpen(false)}
-            >
+            <LinkMobileBox href="#about" onClick={() => setOpen(false)}>
               About
-            </a>
+            </LinkMobileBox>
             <Link href="/projects" passHref>
-              <a
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                  display: "flex",
-                  fontSize: "25px",
-                  padding: "28px 50px ",
-                  height: "100px",
-                  alignItems: "flex-end",
-                }}
-                onClick={() => setOpen(false)}
-              >
+              <LinkMobileBox onClick={() => setOpen(false)}>
                 Projects
-              </a>
+              </LinkMobileBox>
             </Link>
-          </Box>
+            <EllipseBox />
+          </Sidebar>
         )}
       </ToolbarBox>
     </AppBar>
