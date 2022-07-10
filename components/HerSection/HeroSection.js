@@ -37,8 +37,8 @@ function HeroSection() {
         <a
           href="#about"
           style={{
-            width: { xs: "30px", md: "50px" },
-            height: { xs: "30px", md: "50px" },
+            width: { sm: "30px", md: "50px" },
+            height: { sm: "30px", md: "50px" },
           }}
         >
           <Image

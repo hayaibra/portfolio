@@ -9,8 +9,11 @@ export const HeroBox = styled(Box)(({ theme }) => ({
   left: 0,
   right: 0,
   overflow: "hidden",
-  [theme.breakpoints.only("xs")]: {
+  [theme.breakpoints.down("md")]: {
     height: "127vh",
+    // width: "120vw",
+  },
+  [theme.breakpoints.only("xs")]: {
     width: "120vw",
   },
 }));
@@ -38,6 +41,10 @@ export const InfoBox = styled(Box)(({ theme }) => ({
   [theme.breakpoints.only("xs")]: {
     marginTop: "135px",
     paddingLeft: "30px",
+  },
+  [theme.breakpoints.only("sm")]: {
+    marginTop: "40px",
+    // paddingLeft: "30px",
   },
 }));
 
@@ -69,20 +76,26 @@ export const ImageBox = styled("div")(({ theme }) => ({
     width: "400px",
     height: "400px",
   },
+  [theme.breakpoints.only("sm")]: {
+    marginBottom: "95px",
+  },
 }));
 
 const upDown = keyframes`100% {transform :translateY(50px)}`;
 
-export const ArrowBox = styled(Box)({
+export const ArrowBox = styled(Box)(({ theme }) => ({
   position: "absolute",
   bottom: "10%",
   // left: "50%",
   zIndex: 1000,
-  width:"100%",
+  width: "100%",
   cursor: "pointer",
-  display:"flex",
-  justifyContent:"center",
+  display: "flex",
+  justifyContent: "center",
   "&:hover": {
     animation: `${upDown} 0.5s both  infinite linear`,
   },
-});
+  [theme.breakpoints.only("sm")]: {
+    bottom: "4%",
+  },
+}));
