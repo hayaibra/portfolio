@@ -1,8 +1,11 @@
 import { Box, styled, Typography } from "@mui/material";
 
-export const SkillBox = styled(Box)({
+export const SkillBox = styled(Box)(({theme})=>({
   padding: "60px 0",
-});
+  [theme.breakpoints.only("xs")]: {
+    width: "120vw",
+  },
+}));
 
 export const Card = styled(Box)({
   display: "flex",

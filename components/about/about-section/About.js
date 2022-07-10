@@ -7,20 +7,37 @@ import {
   ImageBox,
   AboutContent,
   AboutText,
+  TextBox,
 } from "./Style";
 import Image from "next/image";
 
 function About() {
   return (
     <AboutBox>
-      <TitleBox >
+      <TitleBox>
         <Title variant="h2">ABOUT ME</Title>
       </TitleBox>
-      <Stack direction="row" spacing={2}>
-        <Box>
-          <Image src={require("../../../public/imgs/girl-2.png")} width="800" height="500"/>
+      <Stack
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column-reverse", md: "row" },
+        }}
+        spacing={2}
+      >
+        <Box
+          sx={{
+            width: { xs: "100%", md: "800px" },
+            height: { xs: "300px", md: "500px" },
+            padding:{xs:"25px", md:"0"}
+          }}
+        >
+          <Image
+            src={require("../../../public/imgs/girl-2.png")}
+            // width="800"
+            // height="500"
+          />
         </Box>
-        <Box sx={{display:"flex" , justifyContent:"center"}}>
+        <TextBox>
           <AboutContent>
             <AboutText sx={{ marginBottom: "50px" }}>
               I'm a junior developer who has recently started my journey as a
@@ -35,7 +52,7 @@ function About() {
               meticulous attention to detail.
             </AboutText>
           </AboutContent>
-        </Box>
+        </TextBox>
       </Stack>
     </AboutBox>
   );

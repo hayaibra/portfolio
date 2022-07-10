@@ -6,7 +6,7 @@ import SkillCard from "./SkillCard";
 
 function Skills() {
   return (
-    <SkillBox padding="60px 0">
+    <SkillBox >
       <TitleBox>
         <Title variant="h2">Skills</Title>
       </TitleBox>
