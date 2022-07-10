@@ -27,8 +27,10 @@ function About() {
         <Box
           sx={{
             width: { xs: "100%", md: "800px" },
-            height: { xs: "300px", md: "500px" },
-            padding:{xs:"25px", md:"0"}
+            height: { xs: "300px",sm:"0", md: "500px" },
+            padding:{xs:"25px", md:"0"},
+            display:"flex",
+            justifyContent:"center"
           }}
         >
           <Image

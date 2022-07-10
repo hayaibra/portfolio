@@ -37,7 +37,7 @@ export const ImageBox = styled(Box)({
 
 export const AboutContent = styled(Box)(({ theme }) => ({
   width: "50%",
-  [theme.breakpoints.only("xs")]: {
+  [theme.breakpoints.down("md")]: {
     width: "100%",
     textAlign: "center",
   },
@@ -51,7 +51,7 @@ export const AboutText = styled(Typography)({
 export const TextBox = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
-  [theme.breakpoints.only("xs")]: {
+  [theme.breakpoints.down("md")]: {
     padding: "30px",
   },
 }));
