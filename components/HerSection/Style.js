@@ -44,7 +44,9 @@ export const InfoBox = styled(Box)(({ theme }) => ({
   },
   [theme.breakpoints.only("sm")]: {
     marginTop: "40px",
-    // paddingLeft: "30px",
+  },
+  [theme.breakpoints.only("md")]: {
+    paddingLeft: "65px",
   },
 }));
 
@@ -54,6 +56,9 @@ export const TitleInfoBox = styled(Typography)(({ theme }) => ({
   fontSize: "114px",
   [theme.breakpoints.only("xs")]: {
     fontSize: "50px",
+  },
+  [theme.breakpoints.only("md")]: {
+    fontSize: "93px",
   },
 }));
 
@@ -65,6 +70,9 @@ export const CareerInfo = styled(Typography)(({ theme }) => ({
   [theme.breakpoints.only("xs")]: {
     fontSize: "25px",
   },
+  [theme.breakpoints.only("md")]: {
+    fontSize: "21px",
+  },
 }));
 
 export const ImageBox = styled("div")(({ theme }) => ({
@@ -74,7 +82,9 @@ export const ImageBox = styled("div")(({ theme }) => ({
   marginLeft: theme.spacing.marginLeft,
   [theme.breakpoints.only("xs")]: {
     width: "400px",
-    height: "400px",
+  },
+  [theme.breakpoints.only("md")]: {
+    width: "500px",
   },
   [theme.breakpoints.only("sm")]: {
     marginBottom: "95px",

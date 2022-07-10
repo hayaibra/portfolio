@@ -41,6 +41,9 @@ export const AboutContent = styled(Box)(({ theme }) => ({
     width: "100%",
     textAlign: "center",
   },
+  [theme.breakpoints.only("md")]: {
+    width: "60%",
+  },
 }));
 
 export const AboutText = styled(Typography)({

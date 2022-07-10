@@ -6,7 +6,7 @@ import { Card, CardContent, CardName } from "./Style";
 function SkillCard() {
   return (
     <Grid container spacing={10}>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4} >
       <Card>
         <CardContent>
           <Image
@@ -18,7 +18,7 @@ function SkillCard() {
         <CardName>github</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -30,7 +30,7 @@ function SkillCard() {
         <CardName>JavaScript</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -42,7 +42,7 @@ function SkillCard() {
         <CardName>HTML</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -54,7 +54,7 @@ function SkillCard() {
         <CardName>CSS</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -66,7 +66,7 @@ function SkillCard() {
         <CardName>React</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -78,7 +78,7 @@ function SkillCard() {
         <CardName>NEXT</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -89,7 +89,7 @@ function SkillCard() {
         <CardName>npm</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -101,7 +101,7 @@ function SkillCard() {
         <CardName>OOP</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -113,7 +113,7 @@ function SkillCard() {
         <CardName>Redux</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -125,7 +125,7 @@ function SkillCard() {
         <CardName>Material UI</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -137,7 +137,7 @@ function SkillCard() {
         <CardName>Sass</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -149,7 +149,7 @@ function SkillCard() {
         <CardName>Bootstrap</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -161,7 +161,7 @@ function SkillCard() {
         <CardName>ES6</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
@@ -173,7 +173,7 @@ function SkillCard() {
         <CardName>Git</CardName>
       </Card>
     </Grid>
-    <Grid item lg={3} xs={6}>
+    <Grid item lg={3} xs={6} md={4}>
       <Card>
         <CardContent>
           <Image
