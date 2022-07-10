@@ -36,7 +36,10 @@ export const Sidebar = styled(Box)(({ theme }) => ({
   alignItems: "center",
   overflow: "hidden",
   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-  transition: "1s",
+  [theme.breakpoints.only("xs")]: {
+    height: "127vh",
+    width: "60%",
+  },
 }));
 
 export const EllipseBox = styled(Box)(({ theme }) => ({
