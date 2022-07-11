@@ -27,10 +27,16 @@ export const TitleBox = styled(Box)({
   },
 });
 
-export const Title = styled(Typography)({
+export const Title = styled(Typography)(({ theme }) => ({
   fontWeight: "bold",
   color: "white",
-});
+  [theme.breakpoints.only("xs")]: {
+    fontSize: "36px",
+  },
+  [theme.breakpoints.only("sm")]: {
+    fontSize: "50px",
+  },
+}));
 
 export const EllipseBox = styled(Box)(({ theme }) => ({
   background: theme.palette.pinkcolor.main,
@@ -49,52 +55,85 @@ export const ProjectCard = styled(Paper)(({ theme }) => ({
   justifyContent: "center",
   overflow: "hidden",
   flexDirection: "column",
+  [theme.breakpoints.down("md")]: {
+    marginBottom: "25px",
+  },
+  [theme.breakpoints.up("sm")]: {
+    marginBottom: "45px",
+  },
+  [theme.breakpoints.up("md")]: {
+    marginRight: "45px",
+  },
 }));
 
 export const ProjectCardContent = styled(Box)({
   padding: "25px",
 });
 
-export const ProjectCardTitleBox = styled(Box)({
+export const ProjectCardTitleBox = styled(Box)(({ theme }) => ({
   marginBottom: "50px",
-});
+  [theme.breakpoints.only("xs")]: {
+    marginBottom: "25px",
+  },
+}));
 
-export const ProjectCardTitle = styled(Typography)({
+export const ProjectCardTitle = styled(Typography)(({ theme }) => ({
   color: "white",
   fontWeight: "bold",
   fontSize: "30px",
-});
+  [theme.breakpoints.only("xs")]: {
+    fontSize: "24px",
+  },
+}));
 
-export const ProjectCardText = styled(Box)({
+export const ProjectCardText = styled(Box)(({ theme }) => ({
   width: "80%",
   marginBottom: "50px",
-});
+  [theme.breakpoints.only("xs")]: {
+    marginBottom: "25px",
+  },
+  [theme.breakpoints.down("md")]: {
+    width: "100%",
+  },
+}));
 
-export const ProjectCardTextContent = styled(Typography)({
+export const ProjectCardTextContent = styled(Typography)(({ theme }) => ({
   color: "white",
   lineHeight: "1.6",
   fontSize: "20px",
-});
+  [theme.breakpoints.only("xs")]: {
+    fontSize: "16px",
+  },
+}));
 
 export const ButtonBox = styled(Box)({
   display: "flex",
   justifyContent: "flex-end",
+  alignItems: "center",
 });
 
-export const ViewButton = styled(Button)({
+export const ViewButton = styled(Button)(({ theme }) => ({
   borderRadius: "20px",
-});
+}));
 
-export const ViewButtonContent = styled(Typography)({
+export const ViewButtonContent = styled(Typography)(({ theme }) => ({
   color: "white",
   textTransform: "lowercase",
   fontWeight: "bold",
   fontSize: "20px",
-});
+  [theme.breakpoints.only("xs")]: {
+    fontSize: "16px",
+  },
+}));
 
-export const AvatarBox = styled(Box)({
+export const AvatarBox = styled(Box)(({ theme }) => ({
   marginLeft: "15px",
   width: "40px",
   height: "40px",
   borderRadius: "50%",
-});
+  [theme.breakpoints.only("xs")]: {
+    width: "30px",
+    height: "30px",
+    marginLeft: "10px",
+  },
+}));

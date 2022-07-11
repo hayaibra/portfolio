@@ -12,13 +12,24 @@ import {
   ButtonBox,
   ViewButton,
   ViewButtonContent,
-  AvatarBox
+  AvatarBox,
 } from "./Style";
 
 function ProjectInfo() {
   return (
-    <Grid container spacing={4}>
-      <Grid item lg={6}>
+    <Grid
+      container
+      spacing={3}
+      sx={{ display: "flex", justifyContent: "space-between" }}
+    >
+      <Grid
+        item
+        xs={10}
+        sm={8}
+        md={5}
+        lg={6}
+        sx={{ marginRight: { md: "45px" , lg:"0px" } }}
+      >
         <ProjectCard elevation={7}>
           <Box width="100%">
             <Image
@@ -58,7 +69,7 @@ function ProjectInfo() {
           </ProjectCardContent>
         </ProjectCard>
       </Grid>
-      <Grid item lg={6}>
+      <Grid item lg={6} xs={10} sm={8} md={5}>
         <ProjectCard elevation={7}>
           <Box width="100%">
             <Image
@@ -98,7 +109,14 @@ function ProjectInfo() {
           </ProjectCardContent>
         </ProjectCard>
       </Grid>
-      <Grid item lg={6}>
+      <Grid
+        item
+        lg={6}
+        xs={10}
+        sm={8}
+        md={5}
+        sx={{ marginRight: { md: "45px" , lg:"0" } }}
+      >
         <ProjectCard elevation={7}>
           <Box width="100%">
             <Image
@@ -138,7 +156,7 @@ function ProjectInfo() {
           </ProjectCardContent>
         </ProjectCard>
       </Grid>
-      <Grid item lg={6}>
+      <Grid item lg={6} xs={10} sm={8} md={5}>
         <ProjectCard elevation={7}>
           <Box width="100%">
             <Image
@@ -178,7 +196,14 @@ function ProjectInfo() {
           </ProjectCardContent>
         </ProjectCard>
       </Grid>
-      <Grid item lg={6}>
+      <Grid
+        item
+        lg={6}
+        xs={10}
+        sm={8}
+        md={5}
+        sx={{ marginRight: { md: "45px" , lg:"0"} }}
+      >
         <ProjectCard elevation={7}>
           <Box width="100%">
             <Image
@@ -218,7 +243,7 @@ function ProjectInfo() {
           </ProjectCardContent>
         </ProjectCard>
       </Grid>
-      <Grid item lg={6}>
+      <Grid item lg={6} xs={10} sm={8} md={5}>
         <ProjectCard elevation={7}>
           <Box width="100%">
             <Image
@@ -258,7 +283,14 @@ function ProjectInfo() {
           </ProjectCardContent>
         </ProjectCard>
       </Grid>
-      <Grid item lg={6}>
+      <Grid
+        item
+        lg={6}
+        xs={10}
+        sm={8}
+        md={5}
+        sx={{ marginRight: { md: "45px" , lg:"0"} }}
+      >
         <ProjectCard elevation={7}>
           <Box width="100%">
             <Image
@@ -298,7 +330,7 @@ function ProjectInfo() {
           </ProjectCardContent>
         </ProjectCard>
       </Grid>
-      <Grid item lg={6}>
+      <Grid item lg={6} xs={10} sm={8} md={5}>
         <ProjectCard elevation={7}>
           <Box width="100%">
             <Image
