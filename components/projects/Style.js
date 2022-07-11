@@ -135,6 +135,7 @@ export const AvatarBox = styled(Box)(({ theme }) => ({
   width: "40px",
   height: "40px",
   borderRadius: "50%",
+  cursor:"pointer",
   [theme.breakpoints.only("xs")]: {
     width: "30px",
     height: "30px",

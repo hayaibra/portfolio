@@ -46,7 +46,7 @@ function ProjectInfo() {
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href="https://mui.com/material-ui/react-paper/" passHref>
+              <Link href="https://pizza-ordering-shop.vercel.app/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -55,12 +55,14 @@ function ProjectInfo() {
                   <ViewButtonContent>view</ViewButtonContent>
                 </ViewButton>
               </Link>
-              <AvatarBox>
-                <Image
-                  src={require("../../public/imgs/github.png")}
-                  objectFit="fill"
-                />
-              </AvatarBox>
+              <Link href="https://github.com/hayaibra/pizza-ordering-shop">
+                <AvatarBox>
+                  <Image
+                    src={require("../../public/imgs/github.png")}
+                    objectFit="fill"
+                  />
+                </AvatarBox>
+              </Link>
             </ButtonBox>
           </ProjectCardContent>
         </ProjectCard>
@@ -86,7 +88,7 @@ function ProjectInfo() {
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href="https://mui.com/material-ui/react-paper/" passHref>
+              <Link href=" https://hayaibra.github.io/nft-landing/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -95,12 +97,14 @@ function ProjectInfo() {
                   <ViewButtonContent>view</ViewButtonContent>
                 </ViewButton>
               </Link>
-              <AvatarBox>
-                <Image
-                  src={require("../../public/imgs/github.png")}
-                  objectFit="fill"
-                />
-              </AvatarBox>
+              <Link href="https://github.com/hayaibra/nft-landing" passHref>
+                <AvatarBox>
+                  <Image
+                    src={require("../../public/imgs/github.png")}
+                    objectFit="fill"
+                  />
+                </AvatarBox>
+              </Link>
             </ButtonBox>
           </ProjectCardContent>
         </ProjectCard>
@@ -126,7 +130,7 @@ function ProjectInfo() {
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href="https://mui.com/material-ui/react-paper/" passHref>
+              <Link href="https://react-app-css.vercel.app/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -135,12 +139,14 @@ function ProjectInfo() {
                   <ViewButtonContent>view</ViewButtonContent>
                 </ViewButton>
               </Link>
-              <AvatarBox>
-                <Image
-                  src={require("../../public/imgs/github.png")}
-                  objectFit="fill"
-                />
-              </AvatarBox>
+              <Link href="https://github.com/hayaibra/react-app-css" passHref>
+                <AvatarBox>
+                  <Image
+                    src={require("../../public/imgs/github.png")}
+                    objectFit="fill"
+                  />
+                </AvatarBox>
+              </Link>
             </ButtonBox>
           </ProjectCardContent>
         </ProjectCard>
@@ -166,7 +172,7 @@ function ProjectInfo() {
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href="https://mui.com/material-ui/react-paper/" passHref>
+              <Link href="https://wedding-opal-one.vercel.app/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -175,12 +181,14 @@ function ProjectInfo() {
                   <ViewButtonContent>view</ViewButtonContent>
                 </ViewButton>
               </Link>
-              <AvatarBox>
-                <Image
-                  src={require("../../public/imgs/github.png")}
-                  objectFit="fill"
-                />
-              </AvatarBox>
+              <Link href="https://github.com/hayaibra/wedding" passHref>
+                <AvatarBox>
+                  <Image
+                    src={require("../../public/imgs/github.png")}
+                    objectFit="fill"
+                  />
+                </AvatarBox>
+              </Link>
             </ButtonBox>
           </ProjectCardContent>
         </ProjectCard>
@@ -206,7 +214,7 @@ function ProjectInfo() {
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href="https://mui.com/material-ui/react-paper/" passHref>
+              <Link href=" https://hayaibra.github.io/haya-website/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -215,12 +223,14 @@ function ProjectInfo() {
                   <ViewButtonContent>view</ViewButtonContent>
                 </ViewButton>
               </Link>
-              <AvatarBox>
-                <Image
-                  src={require("../../public/imgs/github.png")}
-                  objectFit="fill"
-                />
-              </AvatarBox>
+              <Link href="https://github.com/hayaibra/haya-website" passHref>
+                <AvatarBox>
+                  <Image
+                    src={require("../../public/imgs/github.png")}
+                    objectFit="fill"
+                  />
+                </AvatarBox>
+              </Link>
             </ButtonBox>
           </ProjectCardContent>
         </ProjectCard>
@@ -246,7 +256,7 @@ function ProjectInfo() {
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href="https://mui.com/material-ui/react-paper/" passHref>
+              <Link href="https://01-bendi.vercel.app/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -255,12 +265,14 @@ function ProjectInfo() {
                   <ViewButtonContent>view</ViewButtonContent>
                 </ViewButton>
               </Link>
-              <AvatarBox>
-                <Image
-                  src={require("../../public/imgs/github.png")}
-                  objectFit="fill"
-                />
-              </AvatarBox>
+              <Link href="https://github.com/hayaibra/01-Bendi" passHref>
+                <AvatarBox>
+                  <Image
+                    src={require("../../public/imgs/github.png")}
+                    objectFit="fill"
+                  />
+                </AvatarBox>
+              </Link>
             </ButtonBox>
           </ProjectCardContent>
         </ProjectCard>
@@ -286,7 +298,7 @@ function ProjectInfo() {
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href="https://mui.com/material-ui/react-paper/" passHref>
+              <Link href="https://food-house.vercel.app/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -295,12 +307,14 @@ function ProjectInfo() {
                   <ViewButtonContent>view</ViewButtonContent>
                 </ViewButton>
               </Link>
-              <AvatarBox>
-                <Image
-                  src={require("../../public/imgs/github.png")}
-                  objectFit="fill"
-                />
-              </AvatarBox>
+              <Link href="https://github.com/hayaibra/food-house" passHref>
+                <AvatarBox>
+                  <Image
+                    src={require("../../public/imgs/github.png")}
+                    objectFit="fill"
+                  />
+                </AvatarBox>
+              </Link>
             </ButtonBox>
           </ProjectCardContent>
         </ProjectCard>
@@ -326,7 +340,7 @@ function ProjectInfo() {
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href="https://mui.com/material-ui/react-paper/" passHref>
+              <Link href="https://repair-market.vercel.app/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -335,12 +349,14 @@ function ProjectInfo() {
                   <ViewButtonContent>view</ViewButtonContent>
                 </ViewButton>
               </Link>
-              <AvatarBox>
-                <Image
-                  src={require("../../public/imgs/github.png")}
-                  objectFit="fill"
-                />
-              </AvatarBox>
+              <Link href="https://github.com/hayaibra/repair-market" passHref>
+                <AvatarBox>
+                  <Image
+                    src={require("../../public/imgs/github.png")}
+                    objectFit="fill"
+                  />
+                </AvatarBox>
+              </Link>
             </ButtonBox>
           </ProjectCardContent>
         </ProjectCard>
