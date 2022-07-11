@@ -11,6 +11,8 @@ export const ImageBox = styled(Box)({
   display: "flex",
   alignItems: "flex-end",
   padding: "20px",
+  width: "300px",
+  height: "150px",
 });
 
 export const LinkBox = styled("a")({
