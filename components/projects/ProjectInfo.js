@@ -20,7 +20,10 @@ function ProjectInfo() {
     <Grid
       container
       spacing={3}
-      sx={{ display: "flex", justifyContent: "space-between" }}
+      sx={{
+        display: "flex",
+        justifyContent: { xs: "center", lg: "space-between" },
+      }}
     >
       <Grid
         item
@@ -28,10 +31,10 @@ function ProjectInfo() {
         sm={8}
         md={5}
         lg={6}
-        sx={{ marginRight: { md: "45px" , lg:"0px" } }}
+        // sx={{ marginRight: { md: "45px" , lg:"0px" } }}
       >
         <ProjectCard elevation={7}>
-          <Box width="100%">
+          <Box width="100%" >
             <Image
               src={require("../../public/imgs/project-1.png")}
               objectFit="fill"
@@ -115,7 +118,7 @@ function ProjectInfo() {
         xs={10}
         sm={8}
         md={5}
-        sx={{ marginRight: { md: "45px" , lg:"0" } }}
+        // sx={{ marginRight: { md: "45px", lg: "0" } }}
       >
         <ProjectCard elevation={7}>
           <Box width="100%">
@@ -202,7 +205,7 @@ function ProjectInfo() {
         xs={10}
         sm={8}
         md={5}
-        sx={{ marginRight: { md: "45px" , lg:"0"} }}
+        // sx={{ marginRight: { md: "45px", lg: "0" } }}
       >
         <ProjectCard elevation={7}>
           <Box width="100%">
@@ -289,7 +292,7 @@ function ProjectInfo() {
         xs={10}
         sm={8}
         md={5}
-        sx={{ marginRight: { md: "45px" , lg:"0"} }}
+        // sx={{ marginRight: { md: "45px", lg: "0" } }}
       >
         <ProjectCard elevation={7}>
           <Box width="100%">

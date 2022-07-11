@@ -60,10 +60,14 @@ export const ProjectCard = styled(Paper)(({ theme }) => ({
   },
   [theme.breakpoints.up("sm")]: {
     marginBottom: "45px",
-  },
-  [theme.breakpoints.up("md")]: {
     marginRight: "45px",
   },
+  // [theme.breakpoints.up("sm")]: {
+   
+  // },
+  // [theme.breakpoints.only("md")]: {
+  //   marginRight: "45px",
+  // },
 }));
 
 export const ProjectCardContent = styled(Box)({
