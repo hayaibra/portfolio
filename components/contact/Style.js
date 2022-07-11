@@ -11,8 +11,8 @@ export const ContactBox = styled(Box)(({ theme }) => ({
 export const EllipseBox = styled(Box)(({ theme }) => ({
   background: theme.palette.pinkcolor.main,
   position: "absolute",
-  width: "389px",
-  height: "90px",
+  width: "500px",
+  height: "100px",
   bottom: 0,
   right: 0,
   filter: "blur(127px)",
