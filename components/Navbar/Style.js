@@ -39,7 +39,6 @@ export const Sidebar = styled(Box)(({ theme }) => ({
   overflow: "hidden",
   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
   [theme.breakpoints.only("xs")]: {
-    height: "127vh",
     width: "60%",
   },
 }));
@@ -61,7 +60,7 @@ export const CloseBox = styled(Box)({
   cursor: "pointer",
 });
 
-export const LinkMobileBox = styled("a")({
+export const LinkMobileBox = styled("a")(({theme})=>({
   color: "white",
   textDecoration: "none",
   display: "flex",
@@ -70,4 +69,8 @@ export const LinkMobileBox = styled("a")({
   height: "100px",
   alignItems: "flex-end",
   fontWeight: "bold",
-});
+  zIndex: 999,
+  [theme.breakpoints.only("xs")]:{
+    fontSize:"20px",
+  }
+}));

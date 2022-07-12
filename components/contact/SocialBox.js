@@ -19,11 +19,11 @@ function SocialBox() {
           >
             <Image
               src={require("../../public/imgs/insta.png")}
-              width="100"
-              height="100"
+              width="90"
+              height="90"
             />
           </Box>
-          <Typography variant="h6" color="white" fontSize="30px">
+          <Typography variant="h6" color="white" fontSize="25px">
             hayaibrahim95
           </Typography>
         </Box>
@@ -40,11 +40,11 @@ function SocialBox() {
           <Box sx={{ marginRight: "20px" }}>
             <Image
               src={require("../../public/imgs/facebook.png")}
-              width="100"
-              height="100"
+              width="87"
+              height="87"
             />
           </Box>
-          <Typography variant="h6" color="white" fontSize="30px">
+          <Typography variant="h6" color="white" fontSize="25px">
             Haya ibrahim
           </Typography>
         </Box>
@@ -61,11 +61,11 @@ function SocialBox() {
           <Box sx={{ marginRight: "20px" }}>
             <Image
               src={require("../../public/imgs/linked-in.png")}
-              width="117"
-              height="100"
+              width="107"
+              height="90"
             />
           </Box>
-          <Typography variant="h6" color="white" fontSize="30px">
+          <Typography variant="h6" color="white" fontSize="25px">
             haya ibrahim
           </Typography>
         </Box>
@@ -83,11 +83,11 @@ function SocialBox() {
           >
             <Image
               src={require("../../public/imgs/mail.png")}
-              width="100"
-              height="100"
+              width="90"
+              height="90"
             />
           </Box>
-          <Typography variant="h6" color="white" fontSize="30px">
+          <Typography variant="h6" color="white" fontSize="25px">
             hayaibra217@gmail
           </Typography>
         </Box>

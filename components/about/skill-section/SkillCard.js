@@ -11,8 +11,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/github.png`)}
-            width="120"
-            height="120"
+            width="100"
+            height="100"
           />
         </CardContent>
         <CardName>github</CardName>
@@ -23,8 +23,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/js.png`)}
-            width="120"
-            height="120"
+            width="100"
+            height="100"
           />
         </CardContent>
         <CardName>JavaScript</CardName>
@@ -36,7 +36,7 @@ function SkillCard() {
           <Image
             src={require(`../../../public/imgs/html.png`)}
             width="120"
-            height="150"
+            height="140"
           />
         </CardContent>
         <CardName>HTML</CardName>
@@ -47,7 +47,7 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/css.png`)}
-            width="170"
+            width="165"
             height="160"
           />
         </CardContent>
@@ -59,8 +59,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/react.png`)}
-            width="150"
-            height="150"
+            width="120"
+            height="120"
           />
         </CardContent>
         <CardName>React</CardName>
@@ -72,7 +72,7 @@ function SkillCard() {
           <Image
             src={require(`../../../public/imgs/next.png`)}
             width="160"
-            height="150"
+            height="140"
           />
         </CardContent>
         <CardName>NEXT</CardName>
@@ -94,8 +94,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/oop.png`)}
-            width="150"
-            height="120"
+            width="130"
+            height="100"
           />
         </CardContent>
         <CardName>OOP</CardName>
@@ -106,8 +106,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/redux.png`)}
-            width="150"
-            height="150"
+            width="120"
+            height="120"
           />
         </CardContent>
         <CardName>Redux</CardName>
@@ -118,8 +118,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/material-ui.png`)}
-            width="150"
-            height="150"
+            width="125"
+            height="125"
           />
         </CardContent>
         <CardName>Material UI</CardName>
@@ -131,7 +131,7 @@ function SkillCard() {
           <Image
             src={require(`../../../public/imgs/sass.png`)}
             width="150"
-            height="150"
+            height="130"
           />
         </CardContent>
         <CardName>Sass</CardName>
@@ -142,8 +142,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/bootstrap.png`)}
-            width="150"
-            height="150"
+            width="130"
+            height="120"
           />
         </CardContent>
         <CardName>Bootstrap</CardName>
@@ -154,8 +154,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/es6.png`)}
-            width="150"
-            height="150"
+            width="130"
+            height="120"
           />
         </CardContent>
         <CardName>ES6</CardName>
@@ -166,8 +166,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/git.png`)}
-            width="150"
-            height="150"
+            width="130"
+            height="130"
           />
         </CardContent>
         <CardName>Git</CardName>
@@ -178,8 +178,8 @@ function SkillCard() {
         <CardContent>
           <Image
             src={require(`../../../public/imgs/api.png`)}
-            width="150"
-            height="150"
+            width="130"
+            height="130"
           />
         </CardContent>
         <CardName>API</CardName>
