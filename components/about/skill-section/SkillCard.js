@@ -1,18 +1,18 @@
 import React from "react";
-import { Grid } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import Image from "next/image";
 import { Card, CardContent, CardName } from "./Style";
 
 function SkillCard() {
   return (
-    <Grid container spacing={10}>
+    <Grid container spacing={1}>
       <Grid item lg={3} xs={6} md={4}>
         <Card>
           <CardContent>
             <Image
               src={require(`../../../public/imgs/github.png`)}
-              width="100"
-              height="100"
+              width="90"
+              height="90"
               alt="github"
             />
           </CardContent>
@@ -47,14 +47,22 @@ function SkillCard() {
       </Grid>
       <Grid item lg={3} xs={6} md={4}>
         <Card>
-          <CardContent>
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "150px",
+              height: "143px",
+            }}
+          >
             <Image
               src={require(`../../../public/imgs/css.png`)}
-              width="165"
-              height="160"
+              width="120"
+              height="120"
               alt="css"
             />
-          </CardContent>
+          </Box>
           <CardName>CSS</CardName>
         </Card>
       </Grid>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function SocialBox() {
   return (
-    <Grid container spacing={10} sx={{paddingLeft:{xs:"20px", sm:"0"}}}>
+    <Grid container spacing={1} sx={{paddingLeft:{xs:"20px", sm:"0"}}}>
       <Grid item lg={6} md={6} sm={10}>
         <Box
           sx={{
@@ -29,7 +29,7 @@ function SocialBox() {
           </Typography>
         </Box>
       </Grid>
-      <Grid item lg={6} md={6} sm={10}>
+      <Grid item lg={5} md={6} sm={10}>
         <Box
           sx={{
             display: "flex",
@@ -73,7 +73,7 @@ function SocialBox() {
           </Typography>
         </Box>
       </Grid>
-      <Grid item lg={6} md={6} sm={10}>
+      <Grid item lg={5} md={6} sm={10}>
         <Box
           sx={{
             display: "flex",

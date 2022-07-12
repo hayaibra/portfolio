@@ -4,7 +4,7 @@ export const ToolbarBox = styled(Toolbar)({
   display: "flex",
   alignItems: "center",
   justifyContent: "space-evenly",
-  height: "200px",
+  height: "125px",
 });
 
 export const ImageBox = styled(Box)({
@@ -19,7 +19,7 @@ export const LinkBox = styled("a")({
   color: "white",
   textDecoration: "none",
   display: "flex",
-  fontSize: "25px",
+  fontSize: "20px",
   padding: "28px 50px ",
   height: "100px",
   alignItems: "flex-end",

@@ -47,7 +47,7 @@ export const AboutContent = styled(Box)(({ theme }) => ({
 }));
 
 export const AboutText = styled(Typography)({
-  fontSize: "28px",
+  fontSize: "25px",
   fontWeight: "bold",
 });
 

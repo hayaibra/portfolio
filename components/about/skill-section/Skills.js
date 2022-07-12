@@ -10,7 +10,7 @@ function Skills() {
       <TitleBox>
         <Title variant="h2">Skills</Title>
       </TitleBox>
-      <Container>
+      <Container maxWidth="lg">
         <SkillCard/>
       </Container>
     </SkillBox>

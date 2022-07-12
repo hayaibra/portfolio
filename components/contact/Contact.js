@@ -14,7 +14,7 @@ function Contact() {
           CONTACT ME
         </Title>
       </TitleBox>
-      <Container>
+      <Container maxWidth="lg">
         <SocialBox />
       </Container>
       

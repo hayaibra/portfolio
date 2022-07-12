@@ -4,7 +4,7 @@ export const ProjectContent = styled(Box)(({ theme }) => ({
   background: theme.palette.othercolor.main,
   padding: "60px 0",
   position: "relative",
-  top: "200px",
+  top: "100px",
   overflow: "hidden",
   [theme.breakpoints.only("xs")]:{
     padding:"0",

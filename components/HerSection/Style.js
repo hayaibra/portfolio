@@ -21,11 +21,11 @@ export const HeroBox = styled(Box)(({ theme }) => ({
 export const EllipseBox = styled(Box)(({ theme }) => ({
   background: theme.palette.pinkcolor.main,
   position: "absolute",
-  width: "1000px",
-  height: "400px",
+  width: "600px",
+  height: "300px",
   bottom: 0,
   right: 0,
-  filter: "blur(175px)",
+  filter: "blur(150px)",
 }));
 
 export const HeroContent = styled(Stack)({
@@ -36,7 +36,7 @@ export const HeroContent = styled(Stack)({
 });
 
 export const InfoBox = styled(Box)(({ theme }) => ({
-  paddingLeft: "145px",
+  paddingLeft: "90px",
   zIndex: 1000,
   [theme.breakpoints.only("xs")]: {
     marginTop: "135px",
@@ -53,7 +53,7 @@ export const InfoBox = styled(Box)(({ theme }) => ({
 export const TitleInfoBox = styled(Typography)(({ theme }) => ({
   color: "white",
   fontWeight: "bold",
-  fontSize: "114px",
+  fontSize: "80px",
   [theme.breakpoints.only("xs")]: {
     fontSize: "50px",
   },
@@ -65,7 +65,7 @@ export const TitleInfoBox = styled(Typography)(({ theme }) => ({
 export const CareerInfo = styled(Typography)(({ theme }) => ({
   color: "white",
   letterSpacing: "4.5px",
-  fontSize: "44px",
+  fontSize: "30px",
   fontWeight: "bold",
   [theme.breakpoints.only("xs")]: {
     fontSize: "25px",
@@ -77,7 +77,7 @@ export const CareerInfo = styled(Typography)(({ theme }) => ({
 
 export const ImageBox = styled("div")(({ theme }) => ({
   zIndex: 1000,
-  width: "600px",
+  width: "550px",
   height: "400px",
   marginLeft: theme.spacing(0),
   [theme.breakpoints.only("xs")]: {
