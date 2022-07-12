@@ -18,7 +18,7 @@ function SocialBox() {
             sx={{ marginRight: "20px", marginLeft: { xs: "0", sm: "30px" } }}
           >
             <Image
-              src={require("../../public/imgs/insta.png")}
+              src={require("../../public/imgs/INSTA.png")}
               width="90"
               height="90"
               alt="insta"
@@ -40,7 +40,7 @@ function SocialBox() {
         >
           <Box sx={{ marginRight: "20px" }}>
             <Image
-              src={require("../../public/imgs/facebook.png")}
+              src={require("../../public/imgs/FACEBOOK.png")}
               width="87"
               height="87"
               alt="facebook"
@@ -85,7 +85,7 @@ function SocialBox() {
             sx={{ marginRight: "20px", marginLeft: { xs: "0", sm: "85px" } }}
           >
             <Image
-              src={require("../../public/imgs/mail.png")}
+              src={require("../../public/imgs/MAIL.png")}
               width="90"
               height="90"
               alt="mail"
