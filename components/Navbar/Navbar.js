@@ -28,7 +28,8 @@ function Navbar() {
         <ImageBox>
           <Image
             src={require("../../public/imgs/logo.png")}
-           objectFit="fill"
+            objectFit="fill"
+            alt="logo"
           />
         </ImageBox>
         <Stack

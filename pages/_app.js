@@ -18,9 +18,9 @@ const outertheme = createTheme({
       main: "#074070",
     },
   },
-  spacing:{
-    marginLeft:"0"
-  }
+  // spacing: {
+  //   marginLeft: 0,
+  // },
 });
 
 function MyApp({ Component, pageProps }) {

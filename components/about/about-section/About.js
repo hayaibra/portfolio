@@ -35,22 +35,21 @@ function About() {
         >
           <Image
             src={require("../../../public/imgs/girl-2.png")}
-            // width="800"
-            // height="500"
+            alt="girl-2"
           />
         </Box>
         <TextBox>
           <AboutContent>
             <AboutText sx={{ marginBottom: "50px" }}>
-              I'm a junior developer who has recently started my journey as a
+              I&apos;m a junior developer who has recently started my journey as a
               web developer.
             </AboutText>
             <AboutText sx={{ marginBottom: "50px" }}>
-              I'm a self-motivated learner with strong organisation, time
+              I&apos;m a self-motivated learner with strong organisation, time
               management & communication skills.
             </AboutText>
             <AboutText>
-              I'm able to work independently & collaboratively in a team with a
+              I&apos;m able to work independently & collaboratively in a team with a
               meticulous attention to detail.
             </AboutText>
           </AboutContent>

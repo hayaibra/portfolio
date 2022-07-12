@@ -21,6 +21,7 @@ function SocialBox() {
               src={require("../../public/imgs/insta.png")}
               width="90"
               height="90"
+              alt="insta"
             />
           </Box>
           <Typography variant="h6" color="white" fontSize="25px">
@@ -42,6 +43,7 @@ function SocialBox() {
               src={require("../../public/imgs/facebook.png")}
               width="87"
               height="87"
+              alt="facebook"
             />
           </Box>
           <Typography variant="h6" color="white" fontSize="25px">
@@ -63,6 +65,7 @@ function SocialBox() {
               src={require("../../public/imgs/linked-in.png")}
               width="107"
               height="90"
+              alt="linked-in"
             />
           </Box>
           <Typography variant="h6" color="white" fontSize="25px">
@@ -85,6 +88,7 @@ function SocialBox() {
               src={require("../../public/imgs/mail.png")}
               width="90"
               height="90"
+              alt="mail"
             />
           </Box>
           <Typography variant="h6" color="white" fontSize="25px">

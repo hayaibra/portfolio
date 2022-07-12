@@ -31,6 +31,7 @@ function ProjectInfo() {
             <Image
               src={require("../../public/imgs/project-1.png")}
               objectFit="fill"
+              alt="project-1"
             />
           </Box>
           <ProjectCardContent>
@@ -39,10 +40,11 @@ function ProjectInfo() {
             </ProjectCardTitleBox>
             <ProjectCardText>
               <ProjectCardTextContent>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                Responsive website built using next , redux And I used a local
+                api to complete the idea ,The project was designed by me, the
+                idea ot this project is to order pizza at prices fit with the
+                size, additions and quantity required, and it is under
+                development I wish you a happy viewing!
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
@@ -60,6 +62,7 @@ function ProjectInfo() {
                   <Image
                     src={require("../../public/imgs/github.png")}
                     objectFit="fill"
+                    alt="github"
                   />
                 </AvatarBox>
               </Link>
@@ -73,6 +76,7 @@ function ProjectInfo() {
             <Image
               src={require("../../public/imgs/project-2.png")}
               objectFit="fill"
+              alt="project-2"
             />
           </Box>
           <ProjectCardContent>
@@ -81,14 +85,15 @@ function ProjectInfo() {
             </ProjectCardTitleBox>
             <ProjectCardText>
               <ProjectCardTextContent>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                Responsive website I used Reactjs, React-router,sass, scroll-
+                reveal I tried to use dark and light mode The idea of ​​this
+                project is a company that sells nft with discounts through
+                opensea The site shows my abilities in the skills mentioned
+                above I wish you a happy viewing
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
-              <Link href=" https://hayaibra.github.io/nft-landing/" passHref>
+              <Link href="https://hayaibra.github.io/nft-landing/" passHref>
                 <ViewButton
                   color="pinkcolor"
                   variant="contained"
@@ -102,6 +107,7 @@ function ProjectInfo() {
                   <Image
                     src={require("../../public/imgs/github.png")}
                     objectFit="fill"
+                    alt="github"
                   />
                 </AvatarBox>
               </Link>
@@ -115,6 +121,7 @@ function ProjectInfo() {
             <Image
               src={require("../../public/imgs/project-3.png")}
               objectFit="fill"
+              alt="project-3"
             />
           </Box>
           <ProjectCardContent>
@@ -123,10 +130,10 @@ function ProjectInfo() {
             </ProjectCardTitleBox>
             <ProjectCardText>
               <ProjectCardTextContent>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                Responsive website I used reactjs , react-router, css I tried to
+                show my abilities in this project by combining css with react
+                The idea is to suggest places to travel with appropriate offers
+                I wish you a happy viewing
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
@@ -144,6 +151,7 @@ function ProjectInfo() {
                   <Image
                     src={require("../../public/imgs/github.png")}
                     objectFit="fill"
+                    alt="github"
                   />
                 </AvatarBox>
               </Link>
@@ -157,6 +165,7 @@ function ProjectInfo() {
             <Image
               src={require("../../public/imgs/project-4.png")}
               objectFit="fill"
+              alt="project-4"
             />
           </Box>
           <ProjectCardContent>
@@ -165,10 +174,10 @@ function ProjectInfo() {
             </ProjectCardTitleBox>
             <ProjectCardText>
               <ProjectCardTextContent>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                Responsive website using html, css This project is the beginning
+                of my learning in this field and I designed it myself The idea
+                of ​​this project is to organize weddings in time and place I
+                wish you a happy viewing
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
@@ -186,6 +195,7 @@ function ProjectInfo() {
                   <Image
                     src={require("../../public/imgs/github.png")}
                     objectFit="fill"
+                    alt="github"
                   />
                 </AvatarBox>
               </Link>
@@ -199,6 +209,7 @@ function ProjectInfo() {
             <Image
               src={require("../../public/imgs/project-5.png")}
               objectFit="fill"
+              alt="project-5"
             />
           </Box>
           <ProjectCardContent>
@@ -207,10 +218,11 @@ function ProjectInfo() {
             </ProjectCardTitleBox>
             <ProjectCardText>
               <ProjectCardTextContent>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                Responsive website built using reactjs, material-ui Designed to
+                learn to combine these two skills And also I used a local api to
+                show the idea and display it appropriately The idea of ​​this
+                project is similar to facebook and instagram in a simple way, I
+                wish you happy watching!
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
@@ -228,6 +240,7 @@ function ProjectInfo() {
                   <Image
                     src={require("../../public/imgs/github.png")}
                     objectFit="fill"
+                    alt="github"
                   />
                 </AvatarBox>
               </Link>
@@ -241,6 +254,7 @@ function ProjectInfo() {
             <Image
               src={require("../../public/imgs/project-6.png")}
               objectFit="fill"
+              alt="project-6"
             />
           </Box>
           <ProjectCardContent>
@@ -249,10 +263,10 @@ function ProjectInfo() {
             </ProjectCardTitleBox>
             <ProjectCardText>
               <ProjectCardTextContent>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                Responsive website built using html, bootstrap I combined these
+                two skills through a simple website, the idea of ​​​this project
+                is ​graphic design and web design, with the addition of a few
+                animations. I wish you a happy viewing!
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
@@ -270,6 +284,7 @@ function ProjectInfo() {
                   <Image
                     src={require("../../public/imgs/github.png")}
                     objectFit="fill"
+                    alt="github"
                   />
                 </AvatarBox>
               </Link>
@@ -283,6 +298,7 @@ function ProjectInfo() {
             <Image
               src={require("../../public/imgs/project-7.png")}
               objectFit="fill"
+              alt="project-7"
             />
           </Box>
           <ProjectCardContent>
@@ -291,10 +307,10 @@ function ProjectInfo() {
             </ProjectCardTitleBox>
             <ProjectCardText>
               <ProjectCardTextContent>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                Responsive website that used html, sass, and a little javascript
+                The idea of ​​this project is a website to order food of all
+                kinds Through it I learned to use sass well and improve the
+                appearance of the code I wish you a happy viewing!
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
@@ -312,6 +328,7 @@ function ProjectInfo() {
                   <Image
                     src={require("../../public/imgs/github.png")}
                     objectFit="fill"
+                    alt="github"
                   />
                 </AvatarBox>
               </Link>
@@ -325,6 +342,7 @@ function ProjectInfo() {
             <Image
               src={require("../../public/imgs/project-8.png")}
               objectFit="fill"
+              alt="project-8"
             />
           </Box>
           <ProjectCardContent>
@@ -333,10 +351,10 @@ function ProjectInfo() {
             </ProjectCardTitleBox>
             <ProjectCardText>
               <ProjectCardTextContent>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.{" "}
+                Responsive website using html, sass, js Through it, I learned to
+                use js well to control ideas that need ready frameworks ,The
+                idea of ​​the project is an electronics repair shop with
+                services and employee skills I wish you a happy viewing!
               </ProjectCardTextContent>
             </ProjectCardText>
             <ButtonBox>
@@ -354,6 +372,7 @@ function ProjectInfo() {
                   <Image
                     src={require("../../public/imgs/github.png")}
                     objectFit="fill"
+                    alt="github"
                   />
                 </AvatarBox>
               </Link>

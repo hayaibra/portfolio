@@ -30,6 +30,7 @@ function HeroSection() {
           <Image
             src={require("../../public/imgs/girl-1.png")}
             objectFit="fill"
+            alt="girl-1"
           />
         </ImageBox>
       </HeroContent>
@@ -44,6 +45,7 @@ function HeroSection() {
           <Image
             src={require("../../public/imgs/arrow.png")}
             objectFit="fill"
+            alt="arrow"
           />
         </a>
       </ArrowBox>
