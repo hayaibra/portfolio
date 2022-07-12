@@ -6,9 +6,6 @@ export const ProjectContent = styled(Box)(({ theme }) => ({
   position: "relative",
   top: "100px",
   overflow: "hidden",
-  [theme.breakpoints.only("xs")]:{
-    padding:"0",
-  }
 }));
 
 export const TitleBox = styled(Box)(({theme})=>({
