@@ -30,7 +30,7 @@ export const Sidebar = styled(Box)(({ theme }) => ({
   position: "absolute",
   backgroundColor: theme.palette.othercolor.main,
   top: "0",
-  height: "100vh",
+  height: "120vh",
   right: "0",
   display: "flex",
   justifyContent: "center",
