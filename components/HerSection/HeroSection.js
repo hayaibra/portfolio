@@ -11,7 +11,6 @@ import {
   ArrowBox,
 } from "./Style";
 import Image from "next/image";
-import Link from "next/link";
 
 function HeroSection() {
   return (

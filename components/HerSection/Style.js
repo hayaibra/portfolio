@@ -79,7 +79,7 @@ export const ImageBox = styled("div")(({ theme }) => ({
   zIndex: 1000,
   width: "550px",
   height: "400px",
-  marginLeft: theme.spacing(0),
+  marginLeft: theme.spacing,
   [theme.breakpoints.only("xs")]: {
     width: "400px",
   },
