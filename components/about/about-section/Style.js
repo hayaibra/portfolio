@@ -27,9 +27,12 @@ export const TitleBox = styled(Box)(({ theme }) => ({
   },
 }));
 
-export const Title = styled(Typography)({
+export const Title = styled(Typography)(({ theme }) => ({
   fontWeight: "bold",
-});
+  [theme.breakpoints.down("md")]: {
+    fontSize: "35px",
+  },
+}));
 
 export const ImageBox = styled(Box)({
   marginRight: "300px",

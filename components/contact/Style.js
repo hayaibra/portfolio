@@ -3,9 +3,9 @@ import { Box, styled, Typography } from "@mui/material";
 export const ContactBox = styled(Box)(({ theme }) => ({
   background: theme.palette.othercolor.main,
   position: "relative",
-  [theme.breakpoints.only("xs")]:{
-    width:"120vw"
-  }
+  [theme.breakpoints.only("xs")]: {
+    width: "120vw",
+  },
 }));
 
 export const EllipseBox = styled(Box)(({ theme }) => ({
@@ -38,20 +38,20 @@ export const TitleBox = styled(Box)(({ theme }) => ({
   },
 }));
 
-export const Title = styled(Typography)({
+export const Title = styled(Typography)(({ theme }) => ({
   fontWeight: "bold",
-});
+  [theme.breakpoints.down("md")]: {
+    fontSize: "35px",
+  },
+}));
 
-// export const SocialBox = styled(Box)({
-//   display: "flex",
-//   justifyContent: "center",
-//   marginBottom: "50px",
-//   flexWrap:'wrap',
-// });
-
-// export const IconBox = styled(Box)({
-//   width: "100px",
-//   height: "100px",
-//   // marginRight: "30px",
-//   cursor: "pointer",
-// });
+export const IconBox = styled(Typography)(({ theme }) => ({
+  height: "55px",
+  width: "55px",
+  borderRadius: "50%",
+  backgroundColor: theme.palette.pinkcolor.main,
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  marginRight: "20px",
+}));

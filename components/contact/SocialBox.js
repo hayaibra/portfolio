@@ -1,11 +1,16 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import Image from "next/image";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import { IconBox } from "./Style";
 
 function SocialBox() {
   return (
-    <Grid container spacing={1} sx={{paddingLeft:{xs:"20px", sm:"0"}}}>
-      <Grid item lg={6} md={6} sm={10}>
+    <Grid container spacing={1}>
+      <Grid item lg={6} md={6} sm={10} xs={10}>
         <Box
           sx={{
             display: "flex",
@@ -15,21 +20,25 @@ function SocialBox() {
           }}
         >
           <Box
-            sx={{ marginRight: "20px", marginLeft: { xs: "0", sm: "30px" } }}
+            sx={{
+              height: "55px",
+              width: "55px",
+              borderRadius: "50%",
+              backgroundColor: "white",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginRight: "20px",
+            }}
           >
-            <Image
-              src={require("../../public/imgs/INSTA.png")}
-              width="90"
-              height="90"
-              alt="insta"
-            />
+            <InstagramIcon color="pinkcolor" fontSize="large" />
           </Box>
-          <Typography variant="h6" color="white" fontSize="25px">
+          <Typography variant="h6" color="white" fontSize="20px">
             hayaibrahim95
           </Typography>
         </Box>
       </Grid>
-      <Grid item lg={5} md={6} sm={10}>
+      <Grid item lg={6} md={6} sm={10} xs={10}>
         <Box
           sx={{
             display: "flex",
@@ -38,20 +47,15 @@ function SocialBox() {
             marginBottom: "20px",
           }}
         >
-          <Box sx={{ marginRight: "20px" }}>
-            <Image
-              src={require("../../public/imgs/FACEBOOK.png")}
-              width="87"
-              height="87"
-              alt="facebook"
-            />
-          </Box>
-          <Typography variant="h6" color="white" fontSize="25px">
+          <IconBox sx={{ marginLeft: { xs: "-14px", md: "0" } }}>
+            <FaFacebookF color="white" fontSize="30px" />
+          </IconBox>
+          <Typography variant="h6" color="white" fontSize="20px">
             Haya ibrahim
           </Typography>
         </Box>
       </Grid>
-      <Grid item lg={6} md={6} sm={10}>
+      <Grid item lg={6} md={6} sm={10} xs={10}>
         <Box
           sx={{
             display: "flex",
@@ -60,20 +64,15 @@ function SocialBox() {
             marginBottom: { xs: "20px", md: "0" },
           }}
         >
-          <Box sx={{ marginRight: "20px" }}>
-            <Image
-              src={require("../../public/imgs/linked-in.png")}
-              width="107"
-              height="90"
-              alt="linked-in"
-            />
-          </Box>
-          <Typography variant="h6" color="white" fontSize="25px">
+          <IconBox sx={{ marginLeft: "-16px" }}>
+            <FaLinkedinIn color="white" fontSize="30px" />
+          </IconBox>
+          <Typography variant="h6" color="white" fontSize="20px">
             haya ibrahim
           </Typography>
         </Box>
       </Grid>
-      <Grid item lg={5} md={6} sm={10}>
+      <Grid item lg={6} md={6} sm={10} xs={10}>
         <Box
           sx={{
             display: "flex",
@@ -81,17 +80,10 @@ function SocialBox() {
             alignItems: "center",
           }}
         >
-          <Box
-            sx={{ marginRight: "20px", marginLeft: { xs: "0", sm: "85px" } }}
-          >
-            <Image
-              src={require("../../public/imgs/MAIL.png")}
-              width="90"
-              height="90"
-              alt="mail"
-            />
-          </Box>
-          <Typography variant="h6" color="white" fontSize="25px">
+          <IconBox sx={{ marginLeft: { xs: "50px", md: "63px" } }}>
+            <MailOutlineIcon sx={{ color: "white" }} fontSize="large" />
+          </IconBox>
+          <Typography variant="h6" color="white" fontSize="20px">
             hayaibra217@gmail
           </Typography>
         </Box>
