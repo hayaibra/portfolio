@@ -15,7 +15,7 @@ export const ImageBox = styled(Box)({
   height: "150px",
 });
 
-export const LinkBox = styled("a")({
+export const LinkBox = styled("a")(({ theme }) => ({
   color: "white",
   textDecoration: "none",
   display: "flex",
@@ -23,7 +23,12 @@ export const LinkBox = styled("a")({
   padding: "28px 50px ",
   height: "100px",
   alignItems: "flex-end",
-});
+
+  "&:hover": {
+    color: theme.palette.pinkcolor.main,
+    transition:'1s ease-in'
+  },
+}));
 
 export const Sidebar = styled(Box)(({ theme }) => ({
   width: "50%",
@@ -60,7 +65,7 @@ export const CloseBox = styled(Box)({
   cursor: "pointer",
 });
 
-export const LinkMobileBox = styled("a")(({theme})=>({
+export const LinkMobileBox = styled("a")(({ theme }) => ({
   color: "white",
   textDecoration: "none",
   display: "flex",
@@ -70,7 +75,7 @@ export const LinkMobileBox = styled("a")(({theme})=>({
   alignItems: "flex-end",
   fontWeight: "bold",
   zIndex: 999,
-  [theme.breakpoints.only("xs")]:{
-    fontSize:"20px",
-  }
+  [theme.breakpoints.only("xs")]: {
+    fontSize: "20px",
+  },
 }));
