@@ -34,7 +34,7 @@ export const Title = styled(Typography)(({ theme }) => ({
   fontWeight: "bold",
   color: "white",
   [theme.breakpoints.only("xs")]: {
-    fontSize: "36px",
+    fontSize: "35px",
   },
   [theme.breakpoints.only("sm")]: {
     fontSize: "50px",

@@ -34,7 +34,7 @@ function Navbar() {
         </ImageBox>
         <Stack
           direction="row"
-          spacing={3}
+          spacing={2}
           sx={{ display: { xs: "none", md: "flex" } }}
         >
           <Link href="/" passHref>
