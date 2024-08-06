@@ -380,6 +380,82 @@ function ProjectInfo() {
           </ProjectCardContent>
         </ProjectCard>
       </Grid>
+      <Grid item lg={6} xs={10} sm={8} md={5}>
+        <ProjectCard elevation={7}>
+          <Box width="100%">
+            <Image
+              src={require("../../public/imgs/project-9.png")}
+              objectFit="fill"
+              alt="project-8"
+            />
+          </Box>
+          <ProjectCardContent>
+            <ProjectCardTitleBox>
+              <ProjectCardTitle>KazaWallet</ProjectCardTitle>
+            </ProjectCardTitleBox>
+            <ProjectCardText>
+              <ProjectCardTextContent>
+              Multi-currency wallet: Manage, exchange, transfer, deposit and withdraw a variety of currencies in one account.Global Reach and Multiple Payment Systems.
+Fair Exchange Rates and Transparent Fees: Offers competitive rates and clear fee structures. I wish you a happy viewing!
+              </ProjectCardTextContent>
+            </ProjectCardText>
+            <ButtonBox>
+              <Link href="https://www.kazawallet.com/" passHref>
+                <ViewButton
+                  color="pinkcolor"
+                  variant="contained"
+                  disableElevation
+                >
+                  <ViewButtonContent>view</ViewButtonContent>
+                </ViewButton>
+              </Link>
+              
+            </ButtonBox>
+          </ProjectCardContent>
+        </ProjectCard>
+      </Grid>
+      <Grid item lg={6} xs={10} sm={8} md={5}>
+        <ProjectCard elevation={7}>
+          <Box width="100%">
+            <Image
+              src={require("../../public/imgs/project-10.png")}
+              objectFit="fill"
+              alt="project-8"
+            />
+          </Box>
+          <ProjectCardContent>
+            <ProjectCardTitleBox>
+              <ProjectCardTitle>CleanoTech</ProjectCardTitle>
+            </ProjectCardTitleBox>
+            <ProjectCardText>
+              <ProjectCardTextContent>
+              Booking cleaning services with the ability to use discount coupons
+
+Created real-time price calculations based on service type and area size.
+
+
+
+Enabled PDF invoice downloads and automated email notifications for account actions and
+payments.. I wish you a happy viewing!
+
+
+              </ProjectCardTextContent>
+            </ProjectCardText>
+            <ButtonBox>
+              <Link href="https://www.cleanotech.de" passHref>
+                <ViewButton
+                  color="pinkcolor"
+                  variant="contained"
+                  disableElevation
+                >
+                  <ViewButtonContent>view</ViewButtonContent>
+                </ViewButton>
+              </Link>
+              
+            </ButtonBox>
+          </ProjectCardContent>
+        </ProjectCard>
+      </Grid>
     </Grid>
   );
 }

@@ -39,7 +39,7 @@ export const ImageBox = styled(Box)({
 });
 
 export const AboutContent = styled(Box)(({ theme }) => ({
-  width: "50%",
+  width: "49%",
   [theme.breakpoints.down("md")]: {
     width: "100%",
     textAlign: "center",
@@ -49,10 +49,15 @@ export const AboutContent = styled(Box)(({ theme }) => ({
   },
 }));
 
-export const AboutText = styled(Typography)({
+export const AboutText = styled(Typography)(({ theme }) => ({
   fontSize: "25px",
   fontWeight: "bold",
-});
+  maxWidth: "80%",
+  [theme.breakpoints.down("sm")]: {
+    maxWidth: "100%",
+    
+  },
+}));
 
 export const TextBox = styled(Box)(({ theme }) => ({
   display: "flex",

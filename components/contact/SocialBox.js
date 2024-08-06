@@ -9,12 +9,12 @@ import { IconBox } from "./Style";
 
 function SocialBox() {
   return (
-    <Grid container spacing={1}>
+    <Grid container spacing={1} >
       <Grid item lg={6} md={6} sm={10} xs={10}>
         <Box
           sx={{
             display: "flex",
-            justifyContent: "center",
+            justifyContent: {xs:"flex-start", md:"center"},
             alignItems: "center",
             marginBottom: "20px",
           }}
@@ -26,7 +26,8 @@ function SocialBox() {
               borderRadius: "50%",
               backgroundColor: "white",
               display: "flex",
-              justifyContent: "center",
+            justifyContent: "center",
+             
               alignItems: "center",
               marginRight: "20px",
             }}
@@ -42,12 +43,12 @@ function SocialBox() {
         <Box
           sx={{
             display: "flex",
-            justifyContent: "center",
+            justifyContent: {xs:"flex-start", md:"center"},
             alignItems: "center",
             marginBottom: "20px",
           }}
         >
-          <IconBox sx={{ marginLeft: { xs: "-14px", md: "0" } }}>
+          <IconBox>
             <FaFacebookF color="white" fontSize="30px" />
           </IconBox>
           <Typography variant="h6" color="white" fontSize="20px">
@@ -59,12 +60,12 @@ function SocialBox() {
         <Box
           sx={{
             display: "flex",
-            justifyContent: "center",
+            justifyContent: {xs:"flex-start", md:"center"},
             alignItems: "center",
             marginBottom: { xs: "20px", md: "0" },
           }}
         >
-          <IconBox sx={{ marginLeft: "-16px" }}>
+          <IconBox >
             <FaLinkedinIn color="white" fontSize="30px" />
           </IconBox>
           <Typography variant="h6" color="white" fontSize="20px">
@@ -76,15 +77,15 @@ function SocialBox() {
         <Box
           sx={{
             display: "flex",
-            justifyContent: "center",
+            justifyContent: {xs:"flex-start", md:"center"},
             alignItems: "center",
           }}
         >
-          <IconBox sx={{ marginLeft: { xs: "50px", md: "63px" } }}>
+          <IconBox>
             <MailOutlineIcon sx={{ color: "white" }} fontSize="large" />
           </IconBox>
           <Typography variant="h6" color="white" fontSize="20px">
-            hayaibra217@gmail
+            hayaibrahim995@gmail
           </Typography>
         </Box>
       </Grid>

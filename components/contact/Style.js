@@ -3,6 +3,7 @@ import { Box, styled, Typography } from "@mui/material";
 export const ContactBox = styled(Box)(({ theme }) => ({
   background: theme.palette.othercolor.main,
   position: "relative",
+ 
   [theme.breakpoints.only("xs")]: {
     width: "120vw",
   },

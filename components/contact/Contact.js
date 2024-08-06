@@ -1,20 +1,18 @@
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
-import { ContactBox, EllipseBox, IconBox, TitleBox, Title } from "./Style";
+import { ContactBox, EllipseBox, TitleBox, Title } from "./Style";
 import SocialBox from "./SocialBox";
 
-import Image from "next/image";
-import Link from "next/link";
 
 function Contact() {
   return (
-    <ContactBox padding="60px 0">
+    <ContactBox padding={{xs: "60px 20px", sm:"60px 40px"}}>
       <TitleBox>
         <Title variant="h2" color="white">
           CONTACT ME
         </Title>
       </TitleBox>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{display:"flex", justifyContent:"center"}}>
         <SocialBox />
       </Container>
       

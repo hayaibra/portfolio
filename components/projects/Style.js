@@ -94,7 +94,7 @@ export const ProjectCardTitle = styled(Typography)(({ theme }) => ({
 }));
 
 export const ProjectCardText = styled(Box)(({ theme }) => ({
-  width: "80%",
+  width: "100%",
   marginBottom: "50px",
   [theme.breakpoints.only("xs")]: {
     marginBottom: "25px",
@@ -108,6 +108,7 @@ export const ProjectCardTextContent = styled(Typography)(({ theme }) => ({
   color: "white",
   lineHeight: "1.6",
   fontSize: "20px",
+  
   [theme.breakpoints.only("xs")]: {
     fontSize: "16px",
   },
